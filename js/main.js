@@ -16,7 +16,7 @@ function renderGallery(){
                         <i class="fa fa-plus fa-3x"></i>
                     </div>
                 </div>
-                <img class="img-fluid" src="./img/portfolio/${portfolio.id}.jpg" alt="">
+                <img class="img-fluid mx-auto d-block" src="./img/portfolio/${portfolio.id}.jpg" alt="">
             </a>
             <div class="portfolio-caption">
                 <h4>${portfolio.name}</h4>
